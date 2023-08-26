@@ -1,0 +1,141 @@
+/* Center the form */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+}
+
+/* Reset default form styles */
+form {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+}
+  
+  /* Style form labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  /* Style form inputs */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #333;
+    color: #ffffff;
+  }
+  
+  /* Style error messages */
+  #errorContainer {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  /* Style form submit button */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style show password button */
+  .show-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 480px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"] {
+      width: 100%;
+    }
+  }
+  .password-wrapper {
+    position: relative;
+  }
+  
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #333;
+    color: white;
+  }
+
+  
+  h2 {
+    text-align: center;
+    color: #45a049;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input,
+  button {
+    margin-bottom: 10px;
+  }
+  
+  #showPasswordBtn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  #showPasswordBtn:hover {
+    background-color: #45a049;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .success {
+    color: green;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+ 
+
+  
+  
